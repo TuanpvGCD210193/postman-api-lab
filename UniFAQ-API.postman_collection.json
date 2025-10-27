@@ -1,27 +1,49 @@
 {
-	"info": {
-		"_postman_id": "905168fe-984e-4aa5-aa7a-8dd83adbc585",
-		"name": "[Lab] API Tests",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "49564952",
-		"_collection_link": "https://tuanpvgcd210193-6327454.postman.co/workspace/1cfe41a1-1c15-4c4b-876c-06b22f57900a/collection/49564952-905168fe-984e-4aa5-aa7a-8dd83adbc585?action=share&source=collection_link&creator=49564952"
-	},
-	"item": [
-		{
-			"name": "GET Health Check",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "GET All FAQs",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		}
-	]
-}   
+    "info": {
+        "_postman_id": "905168fe-984e-4aa5-aa7a-8dd83adbc585",
+        "name": "[Lab] API Tests",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "49564952",
+        "_collection_link": "https://tuanpvgcd210193-6327454.postman.co/workspace/1cfe41a1-1c15-4c4b-876c-06b22f57900a/collection/49564952-905168fe-984e-4aa5-aa7a-8dd83adbc585?action=share&source=collection_link&creator=49564952"
+    },
+    "item": [
+        {
+            "name": "GET Health Check",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:3000/health",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "health"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "GET All FAQs",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:3000/faqs",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "faqs"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
