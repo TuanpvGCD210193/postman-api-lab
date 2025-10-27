@@ -1,0 +1,5 @@
+[
+  { "id": 1, "question": "Postman la gi?", "answer": "La cong cu de test API." },
+  { "id": 2, "question": "Newman la gi?", "answer": "La Postman phien ban dong lenh." },
+  { "id": 3, "question": "Test status 200 la gi?", "answer": "La test xem API co tra ve OK khong." }
+]
