@@ -13,12 +13,12 @@
                 "method": "GET",
                 "header": [],
                 "url": {
-                    "raw": "http://localhost:3000/health",
+                    "raw": "http://localhost:5000/health",
                     "protocol": "http",
                     "host": [
                         "localhost"
                     ],
-                    "port": "3000",
+                    "port": "5000",
                     "path": [
                         "health"
                     ]
@@ -32,12 +32,12 @@
                 "method": "GET",
                 "header": [],
                 "url": {
-                    "raw": "http://localhost:3000/faqs",
+                    "raw": "http://localhost:5000/faqs",
                     "protocol": "http",
                     "host": [
                         "localhost"
                     ],
-                    "port": "3000",
+                    "port": "5000",
                     "path": [
                         "faqs"
                     ]
